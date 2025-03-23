@@ -76,22 +76,22 @@
 <details>
 <summary>Ответ</summary>
 
+employees (
+- id_employee, int, not null, auto_increment, primary_key
+- last_name, varchar(50), not null
+- first_name, varchar(50), not null
+- surname, varchar(50)
+- salary, foreign_key
+- rank, foreign_key
+- subdivision, foreign_key
+- structural_division, foreign_key
+- hired_since, date, not null
+- office, foreign_key
+- project, foreign_key
+)
 
 
 
 </details>
 
 ------
-
-## Дополнительные задания (со звёздочкой*)
-Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
-
-
-### Задание 2*
-
-Перечислите, какие, на ваш взгляд, в этой денормализованной таблице встречаются функциональные зависимости и какие правила вывода нужно применить, чтобы нормализовать данные.
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
